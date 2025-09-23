@@ -14,7 +14,7 @@ It is intended to ensure **transparency, reproducibility, and open science**.
 ```text
 root/
  ├── manuscript/          # Article text and figures
- │    ├── paper.tex       # Main manuscript (LaTeX) or paper.md
+ │    ├── paper.md       # Main manuscript (Markdown)
  │    ├── refs.bib        # References
  │    └── figures/        # Figures used in the paper
  ├── data/                # Raw and processed datasets
