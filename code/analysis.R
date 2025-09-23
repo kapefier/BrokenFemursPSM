@@ -21,17 +21,14 @@ lapply(required_packages, library, character.only = TRUE)
 # 1. Data cleaning and descriptive statistics (frequencies, missing).
 
 # Load the dataset
-# now we use a manipulated dataset - datacleaning will be created later on
-# data <- readRDS("/home/R/FerriFermori2025/HIPfracture-nonames-mock-dataset.rds")
-
+# now we usare using e a manipulated dataset
+# optimal data cleaning routine will be created later on
 
 data <- readRDS("/../data/HIPfracture-nonames-mock-dataset.rds")
 head(data)
-view(data)
+str(data)
+summary(data)   
 
 # Check for missing values
 missing_summary <- sapply(data, function(x) sum(is.na(x)))
 print(missing_summary)
-
-
-
