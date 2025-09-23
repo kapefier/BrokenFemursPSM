@@ -12,7 +12,7 @@ It is intended to ensure **transparency, reproducibility, and open science**.
 ## 📂 Repository Structure
 
 ```text
-paper-project/
+root/
  ├── manuscript/          # Article text and figures
  │    ├── paper.tex       # Main manuscript (LaTeX) or paper.md
  │    ├── refs.bib        # References
