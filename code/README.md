@@ -1,3 +1,8 @@
-# Readme
+# Code
 
-Placeholder for `README.md`.
+### - analysis.R
+The main analysis R script.
+
+### - analysis.ipynb
+A brief Colab notebook to run the R script in an R kernel session. 
+There are some issues with dependencies, trying to fix.
