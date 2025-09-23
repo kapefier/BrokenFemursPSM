@@ -4,6 +4,9 @@ This repository contains the materials for a scientific project, including manus
 It is intended to ensure **transparency, reproducibility, and open science**.  
 
 ---
+[![Apri in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kapefier/BrokenFemursPSM/blob/main/analysis.R)
+
+---
 
 ## 📂 Repository Structure
 
