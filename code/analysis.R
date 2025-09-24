@@ -1,4 +1,4 @@
-# Analysis of the dataset - HIP FRACTURE 2025 (Ferri)
+# Analysis of the dataset - HIP Fractures 2025 (Ferri)
 #
 # date: 2024-06-15
 # author: Orlando Sagliocco
@@ -13,6 +13,14 @@ required_packages <- c(
 installed <- required_packages %in% rownames(installed.packages())
 if (any(!installed)) {
     install.packages(required_packages[!installed])
+}
+
+if (!requireNamespace("httpgd", quietly = TRUE)) {
+  tryCatch({
+    remotes::install_github("nx10/httpgd")
+  }, error = function(e) {
+    message("httpgd non disponibile, fallback a dispositivo png")
+  })
 }
 
 # Load necessary libraries
