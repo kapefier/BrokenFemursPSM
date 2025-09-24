@@ -15,14 +15,6 @@ if (any(!installed)) {
     install.packages(required_packages[!installed])
 }
 
-if (!requireNamespace("httpgd", quietly = TRUE)) {
-  tryCatch({
-    remotes::install_github("nx10/httpgd")
-  }, error = function(e) {
-    message("httpgd non disponibile, fallback a dispositivo png")
-  })
-}
-
 # Load necessary libraries
 lapply(required_packages, library, character.only = TRUE)
 
