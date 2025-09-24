@@ -30,15 +30,15 @@ root/
 
 ## 🚀 How to Use This Repository
 
-Manuscript → main text of the paper (LaTeX or Markdown).
+Manuscript → main text of the paper (Markdown).
 
-Data → datasets used for analysis (anonymized if necessary).
+Data → datasets used for analysis (anonymized).
 
-Code → R, Python, or other scripts to reproduce results.
+Code → R, Python. Analysis.
 
 Results → figures, tables, statistical outputs.
 
-Protocols → step-by-step procedures, workflows, SOPs.
+Protocols → step-by-step procedures, workflows, Statistical Analysis Plan.
 
 All steps should be reproducible using the provided code and data.
 
