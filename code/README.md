@@ -1,7 +1,7 @@
 # Code
 
 ### - analysis.R
-The main analysis R script.
+The main analysis R script. Wonderful.
 
 ### - analysis.ipynb
 A brief Colab notebook to run the R script in an R kernel session. 

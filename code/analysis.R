@@ -24,7 +24,7 @@ lapply(required_packages, library, character.only = TRUE)
 # now we usare using e a manipulated dataset
 # optimal data cleaning routine will be created later on
 
-data <- readRDS("/../data/HIPfracture-nonames-mock-dataset.rds")
+data <- readRDS("./data/HIPfracture-nonames-mock-dataset.rds")
 head(data)
 str(data)
 summary(data)   
