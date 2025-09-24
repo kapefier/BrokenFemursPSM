@@ -6,7 +6,7 @@
 # List of required packages
 required_packages <- c(
     "broom", "kableExtra", "pROC", "tidyverse", "parameters",
-    "insight", "httpgd", "tableone"
+    "insight" #, "httpgd", "tableone"
 )
 
 # Install missing packages
