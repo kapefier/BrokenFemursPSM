@@ -1,4 +1,4 @@
-#  (Conditional)Association between survival rate and surgical timing after hip fracture: a retrospective propensity score-matched cohort study 
+#  (Conditional) Association between survival rate and surgical timing after hip fracture: a retrospective propensity score-matched cohort study 
 This repository contains the materials for a scientific project, including manuscript, data, code, and supplementary materials.  
 It is intended to ensure **transparency, reproducibility, and open science**.  
 
