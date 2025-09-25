@@ -1,4 +1,4 @@
-# Analysis of the dataset - HIP FRACTURE 2025 (Ferri)
+# Analysis of the dataset - HIP Fractures 2025 (Ferri)
 #
 # date: 2024-06-15
 # author: Orlando Sagliocco
@@ -6,7 +6,7 @@
 # List of required packages
 required_packages <- c(
     "broom", "kableExtra", "pROC", "tidyverse", "parameters",
-    "insight", "httpgd", "tableone"
+    "insight" #, "httpgd", "tableone"
 )
 
 # Install missing packages

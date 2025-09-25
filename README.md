@@ -1,5 +1,4 @@
-# 🧪 (Conditional) Association between surgical timing and mortality after hip fracture: a retrospective propensity score-matched cohort study
-
+#  (Conditional) Association between survival rate and surgical timing after hip fracture: a retrospective propensity score-matched cohort study 
 This repository contains the materials for a scientific project, including manuscript, data, code, and supplementary materials.  
 It is intended to ensure **transparency, reproducibility, and open science**.  
 
@@ -12,9 +11,9 @@ It is intended to ensure **transparency, reproducibility, and open science**.
 ## 📂 Repository Structure
 
 ```text
-paper-project/
+root/
  ├── manuscript/          # Article text and figures
- │    ├── paper.tex       # Main manuscript (LaTeX) or paper.md
+ │    ├── paper.md        # Main manuscript (Markdown)
  │    ├── refs.bib        # References
  │    └── figures/        # Figures used in the paper
  ├── data/                # Raw and processed datasets
@@ -30,15 +29,15 @@ paper-project/
 
 ## 🚀 How to Use This Repository
 
-Manuscript → main text of the paper (LaTeX or Markdown).
+Manuscript → main text of the paper (Markdown).
 
-Data → datasets used for analysis (anonymized if necessary).
+Data → datasets used for analysis (anonymized).
 
-Code → R, Python, or other scripts to reproduce results.
+Code → R, Python. Analysis.
 
 Results → figures, tables, statistical outputs.
 
-Protocols → step-by-step procedures, workflows, SOPs.
+Protocols → step-by-step procedures, workflows, Statistical Analysis Plan.
 
 All steps should be reproducible using the provided code and data.
 
