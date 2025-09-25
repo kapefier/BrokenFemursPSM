@@ -2,15 +2,15 @@
 
 ---
 
-### - analysis.R
+### analysis.R
 
 The main analysis R script. Wonderful.
 
-### - analysisR.md
+### analysisR.md (not present)
 
 R markdown script
 
-### - analysis.ipynb
+### analysis.ipynb
 
 A brief Colab notebook to run the R script in an R kernel session. 
 There are some issues with dependencies, trying to fix.
