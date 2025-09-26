@@ -229,7 +229,7 @@ Statistical Analysis Plan | Hip Fracture PSM
 
 8. Sottogruppi e test di interazione.
 
-9 Preparare tabelle/figure e redigere sezione metodi/risultati.
+   9. Preparare tabelle/figure e redigere sezione metodi/risultati.
 
 #### 19.1 Esempi di statistiche da riportare (format rapido)
 
