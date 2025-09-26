@@ -325,7 +325,56 @@ Alcuni dataset non confermano l’associazione, probabilmente per differenze met
 
 **Conclusions**: L'intervento precoce non sembra influenzare la mortalità nella popolazione generale di pazienti con frattura di femore. Tuttavia, ritardi chirurgici molto marcati negli anziani più fragili sono associati a un aumento significativo della mortalità. Questi dati supportano strategie cliniche mirate per ridurre ritardi chirurgici in sottogruppi ad alto rischio.
 
-## 22. Appendice 3. Checklist STROBE - Studio osservazionale (coorte)
+
+
+## Appendice 3. Potenza
+
+### Calcolo della "minimal detectable difference"
+
+Assumiamo uno scenario realistico, considerando i valori citati nella letteratura di riferimento. Mortalità ≈ 6%. 
+
+Se la numerosità del campione fosse n= 300 pazienti totali suddivisi 1:1 → n=150 per gruppo. 
+
+Formula (approssimazione normale per test due proporzioni) per **minimal detectable absolute difference** (MDD):
+
+$MDD ≈ (z_{α/2} + z_{β}) * sqrt( 2·p·(1–p) / n_<group> ) $ 
+
+dove 
+
+$z_{α/2}=1.96 (α=0.05)$, 
+
+$z_{β}=0.842$
+
+ (power 80%). 
+
+Risultati numerici: 
+
+- Se p ≈ 0.06 (6%) e n_per_group = 150, allora MDD ≈ 0.0768 → 7.7% in valore assoluto. -> cioè con 150 vs 150 possiamo soltanto rilevare un aumento da 6% a ≈ 13.7% (6% + 7.7%) con power ≈80%. 
+
+Esempi per altri p: 
+
+- p = 5% → MDD ≈ 7.05% (ricerca effetto da 5% → ~12.1%) 
+
+- p = 8% → MDD ≈ 8.78% 
+
+Se volessimo rilevare una differenza assoluta di 3% (es. 6% → 9%): 
+
+- Occorrerebbe ≈ 1.211 pazienti per gruppo → ~2.422 totali. 
+
+Per una differenza di 2% (es. 6% → 8%): 
+
+- Occorrerebbe ≈ ~2.556 pazienti per gruppo → ~5.112 totali. 
+
+Questi numeri confermano che n=300 è molto sotto la soglia per differenze clinicamente piccole come 2–3%. 
+Questo è il motivo per cui:
+
+- ipotizzo uno studio esplorativo/pilota e non uno studio definitivo
+
+- bisogna preferire weighting (IPTW) a matching 1:1
+
+- 
+
+## 23. Appendice 4. Checklist STROBE - Studio osservazionale (coorte)
 
 | Sezione / Item                  | Raccomandazione STROBE                                         | Applicazione                                                                                                                                                                                                                    |
 | ------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
