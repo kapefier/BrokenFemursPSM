@@ -2,7 +2,6 @@
 
 Statistical Analysis Plan | Hip Fracture PSM 
 
-
 *Orlando Sagliocco*
 
 ---
@@ -215,7 +214,7 @@ Statistical Analysis Plan | Hip Fracture PSM
 
 2. Imputazione (se necessaria).
 
-3.  Stima PS con regressione logistica (includere tutte le covariate pre-specified). Salvare PS e logit(PS).
+3. Stima PS con regressione logistica (includere tutte le covariate pre-specified). Salvare PS e logit(PS).
 
 4. Matching 1:1 nearest neighbor con caliper = 0.2\*SD(logitPS). Salvare dataset matched.
 
@@ -236,7 +235,7 @@ Statistical Analysis Plan | Hip Fracture PSM
 - Effetto principale (OR o HR): 0.75 (IC95% 0.60--0.95), p = 0.018 ---
   *esempio*.
 - Differenza di rischio a 30 gg: -3.4% (IC95% -6.0% a -0.8%).
-- Numero necessario da trattare (NNT) = 1 / RD (se RD significativo).
+- Number Needed to Treat (NNT) = 1 / RD (se RD significativo).
 
 # 20 Appendice 1, Letteratura di confronto
 
