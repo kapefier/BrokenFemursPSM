@@ -31,9 +31,9 @@ Statistical Analysis Plan | Hip Fracture PSM
   - Nota: riportare una definizione alternativa (≤24 h) nelle
       sensitivity analyses.
 
-- **Outcome primario: ** mortalità a 30 giorni (evento binario).
+- **Outcome primario:** mortalità a 30 giorni (evento binario).
 
-- **Outcome secondari: ** mortalità 90 giorni/1 anno, tempo alla morte, eventi avversi maggiori, durata degenza, reammissione.
+- **Outcome secondari:** mortalità 90 giorni/1 anno, tempo alla morte, eventi avversi maggiori, durata degenza, reammissione.
 
 ## 4. Covariate / potenziali confondenti (da includere nel modello del PS)
 
@@ -162,14 +162,14 @@ Statistical Analysis Plan | Hip Fracture PSM
 
 - Riportare intervalli di confidenza 95% per stime principali.
 
-# 15. Calcolo della potenza (esempio)
+## 15. Calcolo della potenza (esempio)
 
 - Esempio di calcolo per due proporzioni (30-day mortality): se
   mortalità attesa nel gruppo ritardato = 10% e si vuole rilevare una
   riduzione assoluta a 5% (cioè differenza assoluta 5 punti
   percentuali), con α=0.05 (two-sided) e potenza = 80%:
   
-  - campione richiesto per gruppo ≈ **435 pazienti** → totale** ≈ 870
+  - campione richiesto per gruppo ≈ **435 pazienti** → totale **≈ 870
     pazienti.**
   - (Questo è un esempio: variare p1/p2 e rapporto di matching
     cambia la potenza e il numero richiesto).
@@ -229,7 +229,7 @@ Statistical Analysis Plan | Hip Fracture PSM
 
 9 Preparare tabelle/figure e redigere sezione metodi/risultati.
 
-#### # 19.1 Esempi di statistiche da riportare (format rapido)
+#### 19.1 Esempi di statistiche da riportare (format rapido)
 
 - Effetto principale (OR o HR): 0.75 (IC95% 0.60--0.95), p = 0.018 ---
   *esempio*.
