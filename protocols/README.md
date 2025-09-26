@@ -1,6 +1,8 @@
 # 📊🧾🧮 SAP
 
-Statistical Analysis Plan | Hip Fracture PSM
+Statistical Analysis Plan | Hip Fracture PSM 
+
+
 *Orlando Sagliocco*
 
 ---
@@ -177,7 +179,7 @@ Statistical Analysis Plan | Hip Fracture PSM
 - Raccomandazione: eseguire calcoli di potenza basati sulle
   proporzioni osservate nel dataset pilota.
 
-# 16. Output / tabelle e figure da includere nel manoscritto
+## 16. Output / tabelle e figure da includere nel manoscritto
 
 - Tabella 0: flusso dei pazienti (diagramma STROBE) con inclusioni/esclusioni e numero matchati.
 
