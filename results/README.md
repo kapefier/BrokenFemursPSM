@@ -10,4 +10,4 @@
 
 ---
 
-[View HTML in your browser.]([analysisTRY.Rmd](https://kapefier.github.io/BrokenFemursPSM/analysisTRY.html))
+[View HTML in your browser.](https://kapefier.github.io/BrokenFemursPSM/analysisTRY.html)
