@@ -335,9 +335,15 @@ Assumiamo uno scenario realistico, considerando i valori citati nella letteratur
 
 Se la numerosità del campione fosse n= 300 pazienti totali suddivisi 1:1 → n=150 per gruppo. 
 
-Formula (approssimazione normale per test due proporzioni) per **minimal detectable absolute difference** (MDD):
+Formula (approssimazione normale per testarre due proporzioni) per **minimal detectable absolute difference** (MDD):
 
-$MDD ≈ (z_{α/2} + z_{β}) * sqrt( 2·p·(1–p) / n_<group> ) $ 
+
+
+$$
+\text{MDD} \approx (z_{\alpha/2} + z_{\beta}) \cdot \sqrt{\frac{2 \, p \, (1 - p)}{n_{\text{per gruppo}}}}
+$$
+
+ 
 
 dove 
 
@@ -345,7 +351,7 @@ $z_{α/2}=1.96 (α=0.05)$,
 
 $z_{β}=0.842$
 
- (power 80%). 
+(power 80%). 
 
 Risultati numerici: 
 
@@ -371,8 +377,8 @@ Questo è il motivo per cui:
 - ipotizzo uno studio esplorativo/pilota e non uno studio definitivo
 
 - bisogna preferire weighting (IPTW) a matching 1:1
-
-- 
+  
+  
 
 ## 23. Appendice 4. Checklist STROBE - Studio osservazionale (coorte)
 
