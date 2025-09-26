@@ -1,4 +1,4 @@
-# 📊🧾🧮 SAP
+# 📊🧾 SAP
 
 Statistical Analysis Plan | Hip Fracture PSM 
 
