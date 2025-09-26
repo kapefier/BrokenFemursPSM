@@ -840,3 +840,5 @@ Limitiamo l'analisi a modelli 48h e 72h per robustezza.
 ## 6. Outcome analysis (conditional logistic or Cox robust SE). Calculate RD, RR, HR.
 ## 7. Sensitivity analyses: IPTW, alternative timing cut-offs, alternative imputations.
 ## 8. Subgroups and interaction tests.
+
+--- Fine ---
